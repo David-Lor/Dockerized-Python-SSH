@@ -54,10 +54,10 @@ You can build your own image using this repository. This can be useful for chang
 
 ```bash
 git clone https://github.com/Pythoneiro/Dockerized-Python-SSH.git
-docker build -t "local/python-ssl" --build-arg USERNAME=pythonssh --build-arg USERPASS=sshpass Dockerized-Python-SSH
+docker build -t "local/python-ssh" --build-arg USERNAME=pythonssh --build-arg USERPASS=sshpass Dockerized-Python-SSH
 ```
 
-- change `local/python-ssl` by your custom desired image name
+- change `local/python-ssh` by your custom desired image name
 - change `pythonssh` by your custom desired username
 - change `sshpass` by your custom desired user password
 
